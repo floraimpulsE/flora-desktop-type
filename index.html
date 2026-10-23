@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flora Impulse</title>
+ <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  
+   
+    
+
+    <header>
+      <h1>FLORA IMPULSE</h1>
+      <p class="sub">DASHBOARD</p>
+    </header>
+
+    <div class="cards-grid">
+      <div class="crd">
+        <div class="label">Temperature:</div>
+        <div class="value"><span id="temp">--</span>°</div>
+      </div>
+
+      <div class="crd">
+        <div class="lbl">Humidity:</div>
+        <div class="value"><span id="hum">--</span>%</div>
+      </div>
+
+      <div class="crd">
+        <div class="lbl">Moisture:</div>
+        <div class="value"><span id="soil">--</span>%</div>
+      </div>
+
+      <div class="crd">
+        <div class="lbl">pH:</div>
+        <div class="value"><span id="ph">--</span></div>
+      </div>
+    </div>
+<div class="cards-grid">
+    <div class="info">
+      <span>Status:</span>
+      <div class="box" id="status">Connecting...</div>
+    </div>
+
+    <div class="info">
+      <span>Battery:</span>
+      <div class="box"><span id="bat">--</span> V</div>
+    </div></div>
+
+    
+    
+    <span class="hddeny id="ts"></span>
+
+  </div>
+
+  <script type="module">
+    import "./main.js";
+  </script>
+
+</body>
+</html>
